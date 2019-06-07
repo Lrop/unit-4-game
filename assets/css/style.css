@@ -23,7 +23,6 @@
     border-style: solid;
     border-color: white;
     top: 0%;
-    
 }
 .p3 {
     float: right;
@@ -37,9 +36,6 @@
     text-align: center;
     font-size: 25px;
     font-family: 'VT323', monospace;
-    
-
-
 }
 #defenderArea {
     float: right;
@@ -53,7 +49,6 @@
     text-align: center;
     font-size: 25px;
     font-family: 'VT323', monospace;
-
 }
 .playerNames {
     width: 100%;
@@ -65,7 +60,6 @@
     font-size: 25px;
 }
 .player1 {
-    
     height: 120px;
     width: 200px;
     padding-bottom: 20px;
@@ -79,7 +73,6 @@
     
 }
 .player2 {
-   
     height: 120px;
     width: 200px;
     padding-bottom: 20px;
@@ -105,8 +98,7 @@
     margin-left: 5px;
     background-image: url(../images/spiral.galaxy3.gif);
 } 
-.player4{
-    
+.player4{ 
     height: 120px;
     width: 200px;
     padding-bottom: 20px;
@@ -121,7 +113,6 @@
 #imageContainer {
     height: 100px;
     width: 100px;
-    
 }
 .p1 {
     display: inline-block;
@@ -159,7 +150,6 @@
 #fightButton:hover {
     background-color: #3e8e41
 }
-
 #fightButton:active {
   background-color: #3e8e41;
   box-shadow: 0 5px rgb(0, 0, 0);
