@@ -64,20 +64,6 @@
     font-family: 'VT323', monospace;
     font-size: 25px;
 }
-/*
-.column {
-    float: left;
-    width: 25%;
-    
-}
-
-.row:after {
-    content: "";
-    clear: both;
-    display: table;
-
-}
-*/
 .player1 {
     
     height: 120px;
@@ -168,6 +154,7 @@
     margin-right: 10px;
     padding: 24px 12px;
     font-family: 'VT323', monospace;
+    width: 80px;
 }
 #fightButton:hover {
     background-color: #3e8e41
@@ -187,7 +174,8 @@
     margin-left: 10px;
     padding: 24px 12px;
     font-family: 'VT323', monospace;
-}
+    width: 80px;
+}   
 #resetButton:hover {
     background-color: #3e8e41
 }

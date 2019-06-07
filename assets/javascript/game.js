@@ -1,4 +1,4 @@
-// setting players names and values
+// Setting players names and values
 let attackPower;
 let opponent;
 let healthPoints;
@@ -35,6 +35,7 @@ var players = {
 console.log(players);
 
 //Moving players into correct postion after being selected
+
 $(document).ready(function(){
     $(".player1").click(function(){
         $(".player1").appendTo(".p3");
@@ -58,7 +59,7 @@ $(document).ready(function(){
         $(".player4").appendTo(".p3");
     });
 });
-
+    //Defender area/Moving player when selected
  //<---------------------------------------------->
 
 $(document).ready(function(){
@@ -80,8 +81,6 @@ $(document).ready(function() {
     });
 });
 
-
-
 //<---------------------------------------------->
 //Botton Section
 
@@ -89,35 +88,8 @@ function reloadPage(){
     location.reload(true);
 }
 
-
 function attackFunction(player1, player2) {
     player1.healthPoints -= player2.counterattackPower
     player2.healthPoints -= player1.attackPower
 };
-
-/*function attackFunction(){
-    let playerAttack = attackPower;
-    healthPoints -= attackPower;
-    console.log(attackFunction);
-}
- */
-/*const printToScreen = () => {
-    document.getElementsByClassName('healthCounter').innerText = 
-    opponent.healthPoints;
-
-    document.getElementsByClassName('healthCounter').innerText = 
-    player.healthPoints;
-
-
-}
-*/
-
-
-//$(document).ready(function(){
-  //  $
-//});
-
-//$( ".attackButton" ).click(function() {
-  //  $( this ).
- // });
 
