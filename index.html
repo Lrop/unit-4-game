@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|VT323&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body id="body">
+
+    <header id="headerContainer">
+
+        <p>Star Wars Battle Front</p>
+
+
+
+        <div class="buttonSection">
+
+
+
+            <button id="fightButton" onclick="attackFunction();">Attack</button>
+
+
+
+            <button id="resetButton" vale="reset" onclick="reloadPage();" >Restart</button>
+
+    
+
+        </div>
+
+    </header>
+
+   
+
+    
+    <h3>Opponents Health <span id="opponents-health"></span></span></h3>
+
+    <p class="p1">MAKE YOUR SELECTION</p>
+
+
+    <p class="p3">YOUR CHARACTER</p>
+
+    <p id="defenderArea">Defender</p>
+    
+    
+    <sidebar id="playerSelection">
+
+        <div class="row">
+            <div class="column">
+
+                <div class="player1">
+                    <p class="healthCounter">140</p>
+                    <img id="imageContainer" src="../Unit-4-Game/assets/images/Obi-Wan-Kenobi-2.png" alt="OBI">
+                    <p class="playerNames">OBI -WAN- KENOBI</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <div class="player2">
+                    <p class="healthCounter">130</p>
+                    <img id="imageContainer" src="../Unit-4-Game/assets/images/download.jpg" alt="DARTH">
+                    <p class="playerNames">DARTH MAUL</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <div class="player3">
+                    <p class="healthCounter">150</p>
+                    <img id="imageContainer" src="../Unit-4-Game/assets/images/download2.jpg" alt="PALPATINE">
+                    <p class="playerNames">COUNT DUKU</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <div class="player4">
+                    <p class="healthCounter">120</p>
+                    <img id="imageContainer" src="../Unit-4-Game/assets/images/download (1)2.jpg" alt="DUKU">
+                    <p class="playerNames">PALPATINE</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </sidebar>
+
+    <sidebar id="sidebarRight">
+
+
+
+       
+        <!--
+        <div class="buttonSection">
+
+            <button class="fightButton">Attack</button>
+
+            <button class="resetButton">Restart</button>
+
+        </div>
+        -->
+        <div class="defenderContainer">
+
+            <p class="p2">Defender</p>
+
+
+        </div>
+
+
+    </sidebar>
+
+
+</body>
+
+</html>
